@@ -36,12 +36,11 @@ Este projeto é uma representação do meu trabalho como estudante de Ciência d
 
 ## Autor
 
-- **Lyan Kaleu** - Desenvolvedor Full-Stack e Designer UI/UX
+- **Lyan Kaleu** - <i>_29/04/2024_</i>
 
 ## Agradecimentos
 
-- A todos os desenvolvedores cujos tutoriais e recursos me ajudaram a aprender e crescer.
-- À comunidade de código aberto por fornecer ferramentas incríveis para criar projetos como este.
+- Ao Curso em Vídeo e à Faculdade Estácio CEUT pela atividade acadêmica do professor Joselito Mendes de Sousa Junior na disciplina de Desenvolvimento Web em HTML5, CSS, JavaScript e PHP. Suas instruções e motivação foram fundamentais para a criação deste portfólio.
 
 ---
 &copy; Lyan Kaleu | Todos os Direitos Reservados
