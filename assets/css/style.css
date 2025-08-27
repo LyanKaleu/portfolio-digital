@@ -334,10 +334,14 @@ span {
 
 .projeto-box {
     background-color: var(--main-color);
-    height: 300px;
+    min-height: 300px;
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
 }
 
 .projeto-box:hover {
@@ -351,27 +355,31 @@ span {
     display: flex;
     flex-direction: column;
     text-align: left;
-    max-height: 200px;
-    justify-content: center;
-    align-items: baseline;
-    padding: 5em;
+    gap: 1rem;
+    max-height: 100%;
 }
 
 .projeto-info h4 {
     font-size: 2.5rem;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .projeto-info p {
     font-size: 1.6rem;
     font-weight: 400;
-    max-height: 100px;
-    margin: auto;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.projeto-info .link {
+    margin-top: auto;
+    font-weight: 500;
 }
 
 .projeto-info .link::before {
     content: '\27A1';
+    margin-right: 0.5rem;
 }
 
 .projeto-info a {
@@ -560,10 +568,10 @@ span {
     top: 22px;
     width: 0;
     z-index: 1;
-    right: 30px;
+    left: 30px;
     border: medium solid var(--main-color);
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent var(--main-color);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent var(--main-color) transparent transparent;
 }
 
 .formacao .right::after {
